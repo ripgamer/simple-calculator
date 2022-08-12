@@ -1,12 +1,12 @@
 exit=0
 def add_ (x,y):
-    print(x+y)
+    print("\nadd of",x,"+",y,"=", x+y)
 def sub_ (x,y):
-    print(x-y)
+    print("\nsub of",x,"-",y,"=", x-y)
 def mul_ (x,y):
-    print(x*y)
+    print("\nmull of",x,"*",y,"=", x*y)
 def div_ (x,y):
-    print(x/y)
+    print("\ndiv of",x,"/",y,"=", x/y)
 
 while exit==0:
     print("\n ================================= \n ================================= \n ======= simple calculator ======= \n ================================= \n ================================= \n \n")
