@@ -6,7 +6,10 @@ def sub_ (x,y):
 def mul_ (x,y):
     print("\nmull of",x,"*",y,"=", x*y)
 def div_ (x,y):
-    print("\ndiv of",x,"/",y,"=", x/y)
+    if y!=0:
+        print("\ndiv of",x,"/",y,"=", x/y)
+    else :
+        print("not defined")
 
 while exit==0:
     print("\n ================================= \n ================================= \n ======= simple calculator ======= \n ================================= \n ================================= \n \n")
