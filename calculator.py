@@ -10,10 +10,12 @@ def div_ (x,y):
         print("\ndiv of",x,"/",y,"=", x/y)
     else :
         print("not defined")
+def squ_ (x,y):
+    print("\nmull of",x,"*",y,"=", x**y)
 
 while exit==0:
-    print("\n ================================= \n ================================= \n ======= simple calculator ======= \n ================================= \n ================================= \n \n")
-    fun=int(input("choose a function \n 1 : add \n 2 : sub \n 3 : mul \n 4 : div \n 0 : exit \n"))
+    print(" \n ================================= \n ======= simple calculator ======= \n ================================= \n  \n")
+    fun=int(input("choose a function \n 1 : add \n 2 : sub \n 3 : mul \n 4 : div \n 5 : squar \n 0 : exit \n"))
     if fun==0:
         break
     x=int(input("enter 1st number"))
@@ -26,6 +28,8 @@ while exit==0:
         mul_(x,y)
     elif fun==4:
         div_(x,y)
+    elif fun==5:
+        squ_(x,y)
     elif fun==0:
         break
     else :
